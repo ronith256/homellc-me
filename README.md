@@ -90,6 +90,51 @@ src/
    - Preview and link to external websites
    - Automatic tab opening for shared links
 
+## Design Decisions & Approach
+
+### Technology Choices
+
+1. **Gemini AI over ChatGPT**
+   - Cost-effective solution with a generous free tier
+   - Lower latency and faster response times
+   - Native support for multimodal interactions
+   - Competitive performance for most use cases
+   - Better integration with Google's ecosystem
+
+2. **ChromaDB for Knowledge Base**
+   - Open-source and free to use
+   - Lightweight and easy to integrate
+   - Excellent performance for semantic search
+   - Built-in support for embeddings
+   - Active community and regular updates
+
+3. **React Framework**
+   - Component-based architecture for better code organization
+   - Rich ecosystem of libraries and tools
+   - Excellent TypeScript support
+   - Virtual DOM for optimal performance
+   - Large community and extensive documentation
+
+### Architecture Decisions
+
+1. **Context API for State Management**
+   - Built-in React solution, no additional dependencies
+   - Perfect for medium-scale applications
+   - Simpler learning curve compared to Redux
+   - Better performance for frequent updates
+
+2. **Vega-Lite/Altair for Visualizations**
+   - Declarative visualization grammar
+   - Interactive by default
+   - Wide range of chart types
+   - Easy to customize and extend
+
+3. **Docker Support**
+   - Consistent development environment
+   - Easy deployment and scaling
+   - Simplified dependency management
+   - Cross-platform compatibility
+
 ## Findings
 1. **Gemini 2.0 Flash**: Much cheaper than GPT-4o and has a good free tier.
 
