@@ -52,9 +52,10 @@ npm install
 ```
 
 3. Set up environment variables:
-Create a `.env` file in the root directory and add your Google AI API key:
+Create a `.env` file in the root directory and add your Google AI API key and the Python server URL:
 ```
 GEMINI_API_KEY=your_api_key_here
+VITE_API_URL=your_python_server_url_here
 ```
 
 4. Start the development server:
@@ -91,3 +92,7 @@ src/
 
 ## Findings
 1. **Gemini 2.0 Flash**: Much cheaper than GPT-4o and has a good free tier.
+
+
+## Live Demo
+You can access it at https://homellc.profilegen.site/
